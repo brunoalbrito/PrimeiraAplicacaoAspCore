@@ -6,17 +6,17 @@ using Microsoft.AspNetCore.Mvc;
 using System.Web.Http;
 using PrimeiraAplicacao.Models;
 using Microsoft.Extensions.Configuration;
-using PrimeiraAplicacao.Persistence.SingletonConnection;
+using PrimeiraAplicacao.Persistence.Connection.SingletonConnection;
 using System.Data.SqlClient;
 
 namespace PrimeiraAplicacao.Controllers
 {
 
-    [Route("api/teste")]
-    public class TesteController : Controller
+    [Route("api/musica")]
+    public class MusicaController : Controller
     {
         private readonly IConfiguration _configuration;
-        public TesteController(IConfiguration configuration)
+        public MusicaController(IConfiguration configuration)
         {
             _configuration = configuration;
         }

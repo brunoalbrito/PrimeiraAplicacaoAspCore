@@ -2,7 +2,7 @@ using System;
 using System.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 
-namespace PrimeiraAplicacao.Persistence.SingletonConnection
+namespace PrimeiraAplicacao.Persistence.Connection.SingletonConnection
 {
     public class SingletonConnection
     {
