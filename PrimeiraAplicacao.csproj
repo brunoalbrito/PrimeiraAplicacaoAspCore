@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
     <PackageReference Include="System.Data.SqlClient" Version="4.6.0-preview2-26905-02" />
   </ItemGroup>
 
